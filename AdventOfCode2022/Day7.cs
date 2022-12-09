@@ -68,6 +68,8 @@ namespace AdventOfCode2022 {
 				}
 			}
 
+			Console.WriteLine(directories.Where(x => x.Size <= 100000).Sum(x => x.Size));
+
 			var total = 70000000;
 			var neededUnused = 30000000;
 
